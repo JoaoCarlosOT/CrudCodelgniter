@@ -1,0 +1,190 @@
+INFO - 2024-08-19 01:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 01:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 01:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 01:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 01:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 01:48:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "posts/details.php"
+[Method: GET, Route: posts/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts/details.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('posts/details', [], true)
+ 3 APPPATH\Controllers\PostsController.php(98): view('posts/details', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->details('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-19 01:53:44 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/1/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-19 01:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 02:02:45 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-19 02:04:03 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-19 02:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 02:04:16 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-19 02:05:42 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-19 02:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 02:09:33 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-19 02:10:49 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-19 02:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 02:12:36 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-19 02:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 02:15:16 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-19 02:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 02:23:29 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/28/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('28')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-19 02:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 02:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 03:14:07 --> ErrorException: Undefined variable $data
+[Method: GET, Route: posts/4/edit]
+in APPPATH\Views\update.php on line 1.
+ 1 APPPATH\Views\update.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\kayqu\\OneDrive\\Documentos\\codelgniter\\codeigniter4-framework-be27314\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\PostsController.php(67): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostsController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
