@@ -14,6 +14,10 @@ $routes->put('/posts/(:num)', 'PostsController::update/$1', ['as' => 'post.updat
 $routes->delete('/posts/(:num)', 'PostsController::delete/$1', ['as' => 'post.delete']);
 $routes->get('/posts/(:num)', 'PostsController::details/$1', ['as' => 'post.details']);
 
+$routes->get('/login', 'LoginController::Viewlogin', ['as' => 'login']);
+$routes->post('/logar', 'LoginController::login', ['as' => 'logar']); 
+$routes->get('/logout', 'LoginController::logout', ['as' => 'logout']);
+
 
 
 

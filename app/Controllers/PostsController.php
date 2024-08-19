@@ -87,16 +87,16 @@ class PostsController extends BaseController
 
     public function details($id)
     {
-        $data['post'] = $this->postModel->find($id);
+    $data['post'] = $this->postModel->find($id);
 
-        if (!$data['post']) {
-            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
-        }
+    if (!$data['post']) {
+        throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+    }
 
-        return view('partils/head');
-        return view('header');
-        return view('details', $data);
-        return view('partils/foot');
+    return view('partils/head')
+        . view('header')
+        . view('details', $data)
+        . view('partils/foot');
     }
 
     public function search()
