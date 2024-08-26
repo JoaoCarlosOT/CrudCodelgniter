@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?php echo url_to('PostsController::index')?>">Home</a>
+          <a class="nav-link active" aria-current="page" href="<?php echo url_to('ClientesController::index')?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?php echo url_to('PostsController::create')?>">Cadastrar</a>
+          <a class="nav-link active" aria-current="page" href="<?php echo url_to('ClientesController::create')?>">Cadastrar</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="<?php echo url_to('logout')?>">logout</a>
         </li>
       </ul>
-      <form class="d-flex" role="search" action="<?= url_to('post.search') ?>" method="get">
+      <form class="d-flex" role="search" action="<?= url_to('cliente.search') ?>" method="get">
         <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>

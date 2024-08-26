@@ -1,8 +1,11 @@
-<h1>Detalhes do Post</h1>
+<h1>Detalhes do Cliente</h1>
 
-<?php if ($post): ?>
-    <p><strong>Title:</strong> <?php echo esc($post['title']); ?></p>
-    <p><strong>Description:</strong> <?php echo esc($post['description']); ?></p>
+<?php if ($clientes): ?>
+    <p><strong>cliente:</strong> <?php echo esc($clientes['cliente']); ?></p>
+    <p><strong>empresa:</strong> <?php echo esc($clientes['empresa']); ?></p>
+    <p><strong>email:</strong> <?php echo esc($clientes['email']); ?></p>
+    <p><strong>telefone:</strong> <?php echo esc($clientes['telefone']); ?></p>
+    <p><strong>cpf_cnpj:</strong> <?php echo esc($clientes['cpf_cnpj']); ?></p>
 <?php else: ?>
-    <p>Post não encontrado.</p>
+    <p>Cliente não encontrado.</p>
 <?php endif; ?>

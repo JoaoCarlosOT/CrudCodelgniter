@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Posts extends Model
+class Clientes extends Model
 {
-    protected $table            = 'posts';
+    protected $table            = 'clientes';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['title', 'description'];
+    protected $allowedFields    = ['cliente', 'empresa','email', 'telefone','cpf_cnpj'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;

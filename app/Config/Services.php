@@ -3,6 +3,7 @@
 namespace Config;
 
 use CodeIgniter\Config\BaseService;
+use App\Models\Clientes;
 
 /**
  * Services Configuration file.
@@ -20,13 +21,13 @@ use CodeIgniter\Config\BaseService;
 class Services extends BaseService
 {
     
-     public static function example($getShared = true)
-     {
-         if ($getShared) {
-             return static::getSharedInstance('auth');
-         }
-    
-         return new \App\Libraries\Auth;
-     }
+     public static function clientesModel($getShared = true)
+    {
+        if ($getShared) {
+            return static::getSharedInstance('clientesModel');
+        }
+
+        return new Clientes();
+    }
     
 }

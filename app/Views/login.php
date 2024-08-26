@@ -3,7 +3,7 @@
         <?php echo session()->getFlashdata('error'); ?>
     </div>
 <?php endif; ?>
-
+<h1>Login</h1>
 <form method="post" action="<?php echo url_to('logar'); ?>">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email</label>

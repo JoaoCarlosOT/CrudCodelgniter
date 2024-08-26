@@ -5,14 +5,14 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/search', 'PostsController::search', ['as' => 'post.search']);
-$routes->get('/', 'PostsController::index', ['as' => 'home']); 
-$routes->get('/create', 'PostsController::create', ['as' => 'post.create']); 
-$routes->post('/posts', 'PostsController::insert', ['as' => 'post.store']); 
-$routes->get('/posts/(:num)/edit', 'PostsController::edit/$1', ['as' => 'post.edit']); 
-$routes->put('/posts/(:num)', 'PostsController::update/$1', ['as' => 'post.update']); 
-$routes->delete('/posts/(:num)', 'PostsController::delete/$1', ['as' => 'post.delete']);
-$routes->get('/posts/(:num)', 'PostsController::details/$1', ['as' => 'post.details']);
+$routes->get('/search', 'ClientesController::search', ['as' => 'cliente.search']);
+$routes->get('/', 'ClientesController::index', ['as' => 'home']); 
+$routes->get('/create', 'ClientesController::create', ['as' => 'cliente.create']); 
+$routes->post('/cliente', 'ClientesController::insert', ['as' => 'cliente.store']); 
+$routes->get('/cliente/(:num)/edit', 'ClientesController::edit/$1', ['as' => 'cliente.edit']); 
+$routes->put('/cliente/(:num)', 'ClientesController::update/$1', ['as' => 'cliente.update']); 
+$routes->delete('/cliente/(:num)', 'ClientesController::delete/$1', ['as' => 'cliente.delete']);
+$routes->get('/cliente/(:num)', 'ClientesController::details/$1', ['as' => 'cliente.details']);
 
 $routes->get('/login', 'LoginController::Viewlogin', ['as' => 'login']);
 $routes->post('/logar', 'LoginController::login', ['as' => 'logar']); 
